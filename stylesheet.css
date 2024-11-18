@@ -1,0 +1,96 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#future{
+height: 250px;
+width:auto;
+background-color: rgba(7, 7, 243, 0.96);
+}
+#navbarColor03:hover{
+color: #00bcd4;
+border-bottom: 2px solid #00bcd4;
+}
+#appoinment:hover{
+color:blueviolet;
+background-color:  #00bcd4;
+transition:0.3s ;
+border-radius: 12px;
+}
+.about-area{
+background-color:#f0f9fa;
+background-image: url(./images/about.png.webp);  
+background-repeat: no-repeat;
+background-size:500px;
+}
+.link_one:hover{
+border-bottom:2px solid #346bae;
+}
+.headline-area{
+height: 250px;
+width: 100%;
+color: #fff;
+background-image: url(./images/bg1.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+position: relative;
+opacity:0.5;
+}
+.headline-area:hover{
+opacity: 1.0;
+}
+
+/*button styling*/
+#button-style {
+position: relative;
+background-color: blueviolet;
+border: none;
+font-size: 28px;
+color: #FFFFFF;
+text-align: center;
+-webkit-transition-duration: 0.4s; /* Safari */
+transition-duration: 0.4s;
+text-decoration: none;
+overflow: hidden;
+cursor: pointer;
+}
+
+#button-style:after {
+content: "";
+background:orange;
+display: block;
+position: absolute;
+padding-top: 300px;
+padding-left: 350px;
+margin-left: -20px!important;
+margin-top: -120%;
+opacity: 0;
+transition: all 0.9s
+}
+
+#button-style:active:after {
+padding: 0;
+margin: 0;
+opacity: 1;
+transition: 0s
+}
+/*doctors image hover*/
+#image-scroll:hover{
+transform: scale(1.05);
+}
+/*footer icon*/
+.footer-icon:hover{
+border:2px solid #3d7dcc;
+border-radius: 50x;
+background-color:#3d7dcc;
+}
+/*accordion img*/
+.about-accordion{
+width:500px;
+position:absolute;
+top:1230px;
+right:500px;
+bottom: 160px;
+}
